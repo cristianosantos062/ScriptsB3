@@ -1,0 +1,478 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQL Server Scripts1">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="10.144.133.173:adminb3@azr-sdbs-pos-b3i-qab-n.database.windows.net">
+          <Created>2021-11-08T14:11:33.8701439-03:00</Created>
+          <Type>SQL</Type>
+          <Server>10.144.133.173</Server>
+          <UserName>adminb3@azr-sdbs-pos-b3i-qab-n.database.windows.net</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="10.144.133.173:Adminb3@azr-sdbs-pos-b3i-qab-n.database.windows.net">
+          <Created>2022-04-14T20:42:20.5261226-03:00</Created>
+          <Type>SQL</Type>
+          <Server>10.144.133.173</Server>
+          <UserName>Adminb3@azr-sdbs-pos-b3i-qab-n.database.windows.net</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="azr-srv-db-b3i-p.database.windows.net:adminb3">
+          <Created>2021-08-11T14:45:47.3741905-03:00</Created>
+          <Type>SQL</Type>
+          <Server>azr-srv-db-b3i-p.database.windows.net</Server>
+          <UserName>adminb3</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="CMSSQLPRD\PRODCMS:CORPORATE\crissilva">
+          <Created>2021-09-30T17:20:26.8730833-03:00</Created>
+          <Type>SQL</Type>
+          <Server>CMSSQLPRD\PRODCMS</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLBB3EP\SQLBB3EP:CORPORATE\crissilva">
+          <Created>2022-04-14T16:40:45.4202844-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLBB3EP\SQLBB3EP</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLBOVA\SQLBOVA,1433:CORPORATE\crissilva">
+          <Created>2021-09-30T21:41:57.2377472-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLBOVA\SQLBOVA,1433</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLBOVA\SQLBOVA:CORPORATE\crissilva">
+          <Created>2021-11-08T16:51:46.4174597-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLBOVA\SQLBOVA</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLBOVEP\SQLBOVEP:CORPORATE\crissilva">
+          <Created>2022-02-14T19:07:52.8312314-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLBOVEP\SQLBOVEP</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLCOR00301P\SQL2012,1445:CORPORATE\crissilva">
+          <Created>2021-11-08T20:40:12.4395162-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLCOR00301P\SQL2012,1445</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLCOR00301P\SQL2016:CORPORATE\crissilva">
+          <Created>2021-12-16T22:34:59.9255923-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLCOR00301P\SQL2016</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLCOR004CP\SQLCORLP,1445:CORPORATE\crissilva">
+          <Created>2022-02-13T09:58:45.6492091-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLCOR004CP\SQLCORLP,1445</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLCOR018CP\SQLCORPHP,1444:CORPORATE\crissilva">
+          <Created>2022-02-14T14:15:42.0948147-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLCOR018CP\SQLCORPHP,1444</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLCORPOP\SQLCORPOP,1444:CORPORATE\crissilva">
+          <Created>2022-02-13T09:58:56.8771074-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLCORPOP\SQLCORPOP,1444</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLCORPOP\SQLCORPOP:CORPORATE\crissilva">
+          <Created>2021-12-16T20:07:06.4071765-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLCORPOP\SQLCORPOP</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLHSTCORPEP\SQLHSTCORPEP,1444:CORPORATE\crissilva">
+          <Created>2021-11-08T17:01:08.3721039-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLHSTCORPEP\SQLHSTCORPEP,1444</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLLOGTD\SQLLOGTD:CORPORATE\crissilva">
+          <Created>2022-02-14T14:41:12.9039133-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLLOGTD\SQLLOGTD</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLLQDCCP:CORPORATE\crissilva">
+          <Created>2021-08-13T16:10:26.1807269-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLLQDCCP</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLPOS022CP\POS022P1,1444:CORPORATE\crissilva">
+          <Created>2021-11-08T16:35:37.7058477-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLPOS022CP\POS022P1,1444</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLPOS022DP\POS022P2,1445:CORPORATE\crissilva">
+          <Created>2021-11-08T16:38:55.486083-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLPOS022DP\POS022P2,1445</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLSINFEP\SQLSINFEP, 1444:CORPORATE\crissilva">
+          <Created>2022-04-14T17:30:25.7836735-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLSINFEP\SQLSINFEP, 1444</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLSINFEP\SQLSINFEP:CORPORATE\crissilva">
+          <Created>2021-09-29T16:57:16.2426719-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLSINFEP\SQLSINFEP</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLTRD005CP\PUMAP,1444:CORPORATE\crissilva">
+          <Created>2022-02-13T09:29:08.3932312-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLTRD005CP\PUMAP,1444</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLTRD005CP\PUMAP:CORPORATE\crissilva">
+          <Created>2021-09-30T20:54:55.2920883-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLTRD005CP\PUMAP</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQLWEBSP\SQLWEBSP,1444:CORPORATE\crissilva">
+          <Created>2021-11-08T14:53:42.9266131-03:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLWEBSP\SQLWEBSP,1444</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="tupanci:CORPORATE\crissilva">
+          <Created>2021-09-29T18:34:58.6225848-03:00</Created>
+          <Type>SQL</Type>
+          <Server>tupanci</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="TUPANCI:GestaoAmbienteSQL">
+          <Created>2021-08-13T14:06:07.8715995-03:00</Created>
+          <Type>SQL</Type>
+          <Server>TUPANCI</Server>
+          <UserName>GestaoAmbienteSQL</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>tempdb</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Bloqueios.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLBOVA\SQLBOVA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLBOVA\SQLBOVA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Bloqueios.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Conexoes_por_Host.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Conexoes_por_Host.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Consumo_Tempdb_Dados.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLTRD005CP\PUMAP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLTRD005CP\PUMAP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Consumo_Tempdb_Dados.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Contencao_Memoria.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLBOVA\SQLBOVA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLBOVA\SQLBOVA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Contencao_Memoria.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Custo_Plano_Requisicoes_Executando.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLCORPOP\SQLCORPOP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLCORPOP\SQLCORPOP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Custo_Plano_Requisicoes_Executando.sql</FullPath>
+        </FileNode>
+        <FileNode Name="EspacoDisco.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLSINFEP\SQLSINFEP, 1444:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLSINFEP\SQLSINFEP, 1444</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>EspacoDisco.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Estatistica_Tabela.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Estatistica_Tabela.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Estimativa_tempo_conclusao.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLSINFEP\SQLSINFEP, 1444:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLSINFEP\SQLSINFEP, 1444</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Estimativa_tempo_conclusao.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Fragmentacao.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Fragmentacao.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Historico_execucao_procedure.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Historico_execucao_procedure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Lock_Lista.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLBB3EP\SQLBB3EP:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLBB3EP\SQLBB3EP</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Lock_Lista.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Lock_Objeto.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:tupanci:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>tupanci</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Lock_Objeto.sql</FullPath>
+        </FileNode>
+        <FileNode Name="LogSpace.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.144.133.173:False:Adminb3@azr-sdbs-pos-b3i-qab-n.database.windows.net</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.144.133.173</AssociatedConnSrvName>
+          <AssociatedConnUserName>Adminb3@azr-sdbs-pos-b3i-qab-n.database.windows.net</AssociatedConnUserName>
+          <FullPath>LogSpace.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_processes_details .sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:10.144.133.173:False:Adminb3@azr-sdbs-pos-b3i-qab-n.database.windows.net</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>10.144.133.173</AssociatedConnSrvName>
+          <AssociatedConnUserName>Adminb3@azr-sdbs-pos-b3i-qab-n.database.windows.net</AssociatedConnUserName>
+          <FullPath>p_processes_details .sql</FullPath>
+        </FileNode>
+        <FileNode Name="Plano_Requisicoes_Executando.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:azr-srv-db-b3i-p.database.windows.net:False:adminb3</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>azr-srv-db-b3i-p.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>adminb3</AssociatedConnUserName>
+          <FullPath>Plano_Requisicoes_Executando.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Procecure_Cache.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Procecure_Cache.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Queries_Custosas_Top10.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Queries_Custosas_Top10.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Bloqueios.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLBOVA\SQLBOVA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLBOVA\SQLBOVA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>C:\Users\crissilva\Documents\Scripts SQL\Canivete\Bloqueios.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Sessoes_conectadas.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Sessoes_conectadas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Shrink_Executando.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Shrink_Executando.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL2008-Blocker-sqlmon-v13.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQL2008-Blocker-sqlmon-v13.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TransactionLog.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TransactionLog.sql</FullPath>
+        </FileNode>
+        <FileNode Name="verifica_fragmentacao_indices.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>verifica_fragmentacao_indices.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VerificaTLog.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLBOVA\SQLBOVA,1433:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLBOVA\SQLBOVA,1433</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>VerificaTLog.sql</FullPath>
+        </FileNode>
+        <FileNode Name="yukmon-v14.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>yukmon-v14.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
