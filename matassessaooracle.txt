@@ -1,0 +1,18 @@
+1 - Conecta no servidor oratrd11301b (DR)
+
+2- Bloqueia a conta do usuario:
+alter user PR01FSADO  account lock;
+
+3 - encerrar as sessões ativas dele no banco:
+DECLARE
+          CURSOR c_sessions IS
+            SELECT sid, serial#, inst_id
+            FROM gv$session
+            WHERE username = 'PR01FSADO';
+        BEGIN
+          FOR s IN c_sessions LOOP
+            DBMS_OUTPUT.PUT_LINE('Encerrando sessão ' || s.sid || ',' || s.serial# || ' em instancia ' || s.inst_id);
+            EXECUTE IMMEDIATE 'ALTER SYSTEM KILL SESSION ''' || s.sid || ',' || s.serial# || '@' || s.inst_id || ''' IMMEDIATE';
+          END LOOP;
+        END;
+        /
